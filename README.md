@@ -24,51 +24,34 @@ First, clone this repository to your local system using Git:
 
 git clone [https://github.com/Om-Kanawade/Finfactor-Pokedex-Challenge.git](https://github.com/Om-Kanawade/Finfactor-Pokedex-Challenge.git)
 cd Finfactor-Pokedex-Challenge
-2. Backend Setup (Spring Boot)
-The backend must be running first to serve API requests.
+### How to Run
 
-Open your terminal and navigate to the pokedex folder:
 
-Bash
 
->>>> cd pokedex
-Run the application using the Maven wrapper (this downloads necessary dependencies automatically):
+Step 1: Start the Backend
 
-On Windows:
+Open a terminal and navigate to the backend folder.
 
-Bash
+Run the application using Maven:
 
->>>>   .\mvnw spring-boot:run
-
-On Mac/Linux:
-
-Bash
-
+cd backend
 ./mvnw spring-boot:run
-Wait for the console to show Tomcat started on port 8080. The backend is now active.
 
-3. Frontend Setup (React)
-Since node_modules are not included in the repository (to keep it lightweight), you need to install them first.
 
-Open a new terminal window (keep the backend running).
+The server will start on http://localhost:8080.
 
-Navigate to the frontend folder:
+Step 2: Start the Frontend
 
-Bash
+Open a new terminal and navigate to the frontend folder.
 
->>>cd frontend
-Install Dependencies: This command downloads all required libraries (React, Chart.js, Tailwind/CSS, etc.) and recreates the node_modules folder:
+Install dependencies and start the server:
 
-Bash
+cd frontend
+npm install
+npm run dev
 
->>>npm install
 
-Run the Application: Once the installation is complete, start the development server:
-
-Bash
-
->>>npm run dev
-Open your browser and visit the Local URL shown in the terminal (usually http://localhost:5173).
+Open the link shown (usually http://localhost:5173) in your browser.
 
 ## Features to Test
 Once the app is running, try the following:
