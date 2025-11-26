@@ -31,14 +31,14 @@ Open your terminal and navigate to the pokedex folder:
 
 Bash
 
-cd backend
+>>>> cd pokedex
 Run the application using the Maven wrapper (this downloads necessary dependencies automatically):
 
 On Windows:
 
 Bash
 
-.\mvnw spring-boot:run
+>>>>   .\mvnw spring-boot:run
 
 On Mac/Linux:
 
@@ -56,18 +56,18 @@ Navigate to the frontend folder:
 
 Bash
 
-cd frontend
+>>>cd frontend
 Install Dependencies: This command downloads all required libraries (React, Chart.js, Tailwind/CSS, etc.) and recreates the node_modules folder:
 
 Bash
 
-npm install
+>>>npm install
 
 Run the Application: Once the installation is complete, start the development server:
 
 Bash
 
-npm run dev
+>>>npm run dev
 Open your browser and visit the Local URL shown in the terminal (usually http://localhost:5173).
 
 ## Features to Test
