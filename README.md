@@ -77,7 +77,7 @@ Search: Type "Pikachu" or "Charizard" to see the data load.
 
 Caching: Search for "Mewtwo". Then, refresh the page and search for "Mewtwo" again. The second result will load instantly (0ms latency) because it is served from the backend Cache.
 
-Shiny Mode: Click the Sparkle (✨) icon on the image to see the Shiny variant.
+
 
 Audio: Click "Play Cry" to hear the Pokemon.
 
